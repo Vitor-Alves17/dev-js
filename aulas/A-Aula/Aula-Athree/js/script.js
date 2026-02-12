@@ -2,7 +2,7 @@ let produtos = [];
 
 async function carregarProdutos() {
     try {
-        const response = await fetch('../produtos.json');
+        const response = await fetch('produtos.json');
         produtos = await response.json();
         exibirProdutos();
     }catch(error) {
@@ -46,7 +46,8 @@ function exibirProdutos() {
         produtoDiv.appendChild(preco);
 
         const disponivel = document.createElement('span');
-        disponivel.textContent = `produto: ${produto.disponivel ? "Disponivel" : "Indisponivel"}`;
+        disponivel.textContent = "Disponibilidade: "
+        disponivel.textContent = ` ${produto.disponivel ? "Disponivel" : "Indisponivel"}`;
         disponivel.classList.add(produto.disponivel ? "disponivel" : "indisponivel");
         produtoDiv.appendChild(disponivel);
 
