@@ -1,13 +1,13 @@
 let produtos = [];
 
-async function carregarProdutos() {
+async function carregarProdutos(message) {
     try {
         const response = await fetch('produtos.json');
         produtos = await response.json();
         exibirProdutos();
     }catch(error) {
         console.error(`Error ao carregar produtos: `, error);
-        alert(`Error ao carregar produtos: ` , error.message);
+        alert(`Error ao carregar produtos: `, error.message);
     }
 }
 
