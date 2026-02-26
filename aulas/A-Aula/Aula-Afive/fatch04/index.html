@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fat4</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Cadastro de produto</h1>
+  <form id="form">
+    <label for="name"></label>
+    <input type="text" name="name" id="name" placeholder="Digite seu nome">
+    <label for="preco"></label>
+    <input type="number" name="preco" id="preco" step="0.10" required>
+    <label for="disponi"></label>
+    <select id="disponi" name="disponi">
+      <option value="Disponivel">Disponivel</option>
+      <option value="Indisponivel">Indisponivel</option>
+    </select>
+
+    <input type="hidden" id="produtoId">
+    <button type="submit" id="button">Salvar</button>
+    <button id="buttony">Limpar</button>
+  </form>
+
+  <h2>Lista de produtos</h2>
+  <table id="tb">
+    <thead>
+    <tr>
+      <td>Name</td>
+      <td>Preço</td>
+      <td>disponibibibilildade</td>
+      <td>acoes</td>
+    </tr>
+    </thead>
+    <tbody>
+    <!--        js-->
+    </tbody>
+  </table>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
