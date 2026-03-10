@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Products Meneger</h1>
+<div id="form-produto">
+    <h2>Adicionar Produto</h2>
+    <label for="nome"></label>
+    <input type="text" name="nome" id="nome">
+    <label for="preco"></label>
+    <input type="number" name="preco" id="preco">
+    <label for="disponivel"></label>
+    <select name="disponivel" id="disponivel">
+        <option value="true">Sim</option>
+        <option value="false">Não</option>
+    </select><br>
+
+    <button onclick="adicionarProdutos()">Adicionar</button>
+</div>
+
+
+<h2>Lista de Produtos</h2>
+<div id="lista-de-produtos"></div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
