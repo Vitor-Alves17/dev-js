@@ -2,21 +2,22 @@ import {StyleSheet} from "react-native";
 import {theme} from "../../styles/global";
 
 export const styles = StyleSheet.create({
-    modal: {
+    ModalBody: {
         flex: 1,
         backgroundColor: theme.colors.background,
-        padding: 30,
+        padding: 25,
+        paddingTop: 50
     },
-    title: {
+    label: {
         fontSize: 20,
         fontWeight: "bold",
         marginBottom: 20
     },
-
+    
     input: {
         backgroundColor: '#fff',
         padding: 15,
-        borderRadius: 8,
+        borderRadius: 10,
         marginBottom: 10,
         borderWidth: 1,
         borderColor: '#ddd',

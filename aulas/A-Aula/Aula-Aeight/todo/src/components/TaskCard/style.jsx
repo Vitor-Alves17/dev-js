@@ -38,6 +38,6 @@ export const styles = StyleSheet.create({
         marginLeft: 10
     },
     icon: {
-
+        fontSize: 22
     }
 })
