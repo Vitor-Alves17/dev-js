@@ -1,4 +1,4 @@
-import {styled, Styled} from "styled-components";
+import {styled} from "styled-components";
 import {Colors} from "../styles/util/variables.js";
 
 
@@ -11,7 +11,7 @@ export const MainStyle = styled.main`
     padding: 100px 0;
 `
 
-export const ContantMain = styled.div`
+export const ContentMain = styled.div`
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -31,7 +31,8 @@ export const ContentText = styled.p`
     font-size: 20px
 `
 export const ContentBtn = styled.div`
-    
+    display: flex;
+    gap: 20px;
 `
 
 export const Button = styled.a`

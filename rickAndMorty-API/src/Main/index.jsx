@@ -1,21 +1,23 @@
-import {Button, MainStyle} from "./styles.js";
+import {Button, ContentBtn, ContentH1, ContentMain, ContentSpan, ContentText, MainStyle} from "./styles.js";
+import RickBackground from "../assets/images/rick-background.png";
+import {LetreroRM} from "../assets/images/icons.jsx";
 
 export const Main = () => {
     return (
         <MainStyle>
             <div>
-                <img src="" alt=""/>
+                <img src={RickBackground} alt=""/>
             </div>
 
-            <div className="content-main">
-                <img src="" alt=""/>
-                <h1>Bem-vindos ao <span>consumo de API</span> do Rick and Morty</h1>
-                <p>Aqui você encontra informações sobre os personagens de Rick and Morty.</p>
-                <div className="container-btn-main">
+           <ContentMain>
+                <img src={LetreroRM} alt=""/>
+                <ContentH1>Bem-vindos ao <ContentSpan>consumo de API</ContentSpan> do Rick and Morty</ContentH1>
+                <ContentText>Aqui você encontra informações sobre os personagens de Rick and Morty.</ContentText>
+                <ContentBtn>
                     <Button href='' primary>Veja agora</Button>
                     <Button href=''>Saiba mais</Button>
-                </div>
-            </div>
+                </ContentBtn>
+           </ContentMain>
         </MainStyle>
     )
 }

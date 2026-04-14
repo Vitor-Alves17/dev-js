@@ -1,5 +1,5 @@
 import {HeaderASpan, HeaderR, HeaderWrapperA} from "./styles.js";
-import LogoGitHub from "../assets/images/icons.jsx";
+import {LogoGitHub} from "../assets/images/icons.jsx";
 
 
 export const Header = () => {
