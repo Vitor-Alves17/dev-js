@@ -1,6 +1,6 @@
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import {theme} from "../../styles/global";
-import TaskCardStyle from "./styles";
+import {styles} from "./style";
 
 export default function TaskCard(props) {
     const priotrityColor = theme.colors.priority[props.item.priority] || theme.colors.textSub

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dff7a7d4-17af-4c1c-bdbf-f343d16a02e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todo/src/components/TaskModal/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/components/TaskModal/style.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/components/AddTask/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/AddTask/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/components/AddTask/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/AddTask/style.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/components/TaskCard/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/TaskCard/style.jsx" afterDir="false" />
+    <list default="true" id="dff7a7d4-17af-4c1c-bdbf-f343d16a02e7" name="Changes" comment="feat: create todolist in react-native">
+      <change afterPath="$PROJECT_DIR$/todo/src/components/EditTask/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/src/components/EditTask/style.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/src/components/SearchBar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/src/components/SearchBar/style.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/src/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/TaskCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/src/components/TaskModal/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/TaskModal/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +67,12 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.android.executor": "Run",
+    "npm.web.executor": "Run",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.web">
     <configuration name="android" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/todo/package.json" />
       <command value="run" />
@@ -78,8 +83,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="web" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/todo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="web" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.web" />
         <item itemvalue="npm.android" />
       </list>
     </recent_temporary>
@@ -99,11 +115,36 @@
       <option name="presentableId" value="Default" />
       <updated>1775129329065</updated>
       <workItem from="1775129330160" duration="1579000" />
-      <workItem from="1775732287618" duration="9480000" />
+      <workItem from="1775732287618" duration="9575000" />
+      <workItem from="1776337390725" duration="4149000" />
+      <workItem from="1776344195580" duration="3706000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: create todolist in react-native">
+      <option name="closed" value="true" />
+      <created>1775743445763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775743445763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: create todolist in react-native" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create todolist in react-native" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/todo/src/components/EditTask/style.jsx</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

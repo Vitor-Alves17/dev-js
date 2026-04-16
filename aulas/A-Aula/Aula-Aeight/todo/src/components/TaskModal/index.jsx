@@ -25,7 +25,7 @@ export default function TaskModal({visible, taskToEdit, onClose, onSave}) {
 
     return (
         <Modal visible={visible} animationType={'slide'}>
-            <View style={styles.modalBody}>
+            <View style={styles.ModalBody}>
                 <Text style={styles.label}>
                     {taskToEdit ? 'Edit task' : 'Add task'}
 
