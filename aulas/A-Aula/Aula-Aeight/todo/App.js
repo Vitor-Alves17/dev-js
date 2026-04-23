@@ -1,6 +1,6 @@
 
 import {theme} from "./src/styles/global";
-import {FlatList, StyleSheet, View} from "react-native";
+import {Text, FlatList, StyleSheet, View} from "react-native";
 import {useState} from "react";
 import SearchBar from "./src/components/SearchBar";
 import TaskCard from "./src/components/TaskCard";
@@ -65,7 +65,7 @@ export default function App(){
 
           <SearchBar value={searchText} onChange={setSearchText}/>
 
-          {/*<FlatList data={filterTask} keyExtractor={item => item.id} renderItem={({item}) => ( <TaskCard item ={item} onDelete={deleteTask} onEdit={openEdit}/> )} />*/}
+          <FlatList data={filterTask} keyExtractor={item => item.id} renderItem={({item}) => ( <TaskCard item ={item} onDelete={deleteTask} onEdit={openEdit}/> )} />
 
           <TouchableOpacity style={styles.btn} onPress={() => setVisible(true)} >
               <Text style={styles.add}>+</Text>

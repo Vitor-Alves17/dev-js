@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dff7a7d4-17af-4c1c-bdbf-f343d16a02e7" name="Changes" comment="feat: create todolist in react-native">
-      <change afterPath="$PROJECT_DIR$/todo/src/components/EditTask/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/components/EditTask/style.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/components/SearchBar/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/components/SearchBar/style.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/src/services/api.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/src/styles/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-eigth/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-eigth/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-five/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-five/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-seven/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-seven/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-six/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../atividades/aula-six/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/src/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/TaskCard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/components/TaskModal/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/TaskModal/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +76,7 @@
     "npm.android.executor": "Run",
     "npm.web.executor": "Run",
     "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\42326291816\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -117,7 +125,8 @@
       <workItem from="1775129330160" duration="1579000" />
       <workItem from="1775732287618" duration="9575000" />
       <workItem from="1776337390725" duration="4149000" />
-      <workItem from="1776344195580" duration="3706000" />
+      <workItem from="1776344195580" duration="4224000" />
+      <workItem from="1776941893016" duration="4005000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create todolist in react-native">
       <option name="closed" value="true" />
@@ -127,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775743445763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: create todolist in react-native">
+      <option name="closed" value="true" />
+      <created>1776348016284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776348016284</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: create todolist in react-native">
+      <option name="closed" value="true" />
+      <created>1776348136316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776348136316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
