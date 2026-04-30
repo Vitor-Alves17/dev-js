@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dff7a7d4-17af-4c1c-bdbf-f343d16a02e7" name="Changes" comment="feat: create todolist in react-native">
-      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/src/services/api.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/src/styles/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-eigth/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-eigth/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-five/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-five/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-seven/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-seven/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-six/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../atividades/aula-six/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Aten/api-axios-trabalho/src/components/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula-Aten/api-axios-trabalho/src/styles/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/TaskCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula-Anine/axios-mob/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula-Anine/axios-mob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula-Anine/axios-mob/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.android.executor": "Run",
-    "npm.web.executor": "Run",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\42326291816\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.android.executor&quot;: &quot;Run&quot;,
+    &quot;npm.web.executor&quot;: &quot;Run&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\42326291816\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.web">
     <configuration name="android" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/todo/package.json" />
@@ -127,6 +116,7 @@
       <workItem from="1776337390725" duration="4149000" />
       <workItem from="1776344195580" duration="4224000" />
       <workItem from="1776941893016" duration="4005000" />
+      <workItem from="1777548906542" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create todolist in react-native">
       <option name="closed" value="true" />
